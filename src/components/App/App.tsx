@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './App.module.css';
 
-import { TestComponent } from '../components.index'
+import { Header, TestComponent } from '../components.index'
 
 function App() {
   return (<>
     <div className={styles.head}>
-      <div>Header</div>
+      <Header />
       <div>Promo</div>
     </div>
     <div>Portfolio</div>
