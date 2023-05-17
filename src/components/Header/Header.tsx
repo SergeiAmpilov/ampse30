@@ -9,30 +9,29 @@ export const Header: FC<HeaderProps> = ({className, ...props }: HeaderProps): JS
       className={cn(className, styles.header)}
       {...props} >
       <div className="container">
-
-      <a href="#home">ampilov.s</a>
-
-
-        
-        
-
-        {/* nav menu */}
-        <a href="#portfolio">Портфолио</a>
-        <a href="#contacts">Контакты</a>
-
-
-        {/* contacts menu */}
-        <a href="tel: +79268373346" target='_blank'>
-          Phone
-        </a>
-        <a href="mailto:dev@ampilovs.ru" target='_blank'>
-          Email
-        </a>
-        <a href="https://t.me/sergei_ampilov" target='_blank'>
-          Telegramm
-        </a>
-
-
+        <nav className={styles.navcontainer}>
+          <a href="#home">
+            <i className="fa fa-home" aria-hidden="true"></i>
+            <span className={styles.sitename}>
+              ampilov.s
+            </span>
+          </a>      
+          <div className={styles.nav_anchor}>
+            <a href="#portfolio">Портфолио</a>
+            <a href="#contacts">Контакты</a>
+          </div>
+          <div>
+            <a href="tel: +79268373346" target='_blank'>
+              <i className="fa fa-phone" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:dev@ampilovs.ru" target='_blank'>
+              <i className="fa fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a href="https://t.me/sergei_ampilov" target='_blank'>
+              <i className="fa fa-telegram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </nav>
       </div>
     </header>
   );

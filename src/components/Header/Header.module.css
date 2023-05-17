@@ -1,4 +1,7 @@
-.header,
+.header {
+  padding: 10px 0;
+}
+
 .header a,
 .header a:visited
 {
@@ -7,9 +10,30 @@
 
 .header a {
   text-decoration: none;
+  margin-left: 10px;
+}
+
+.header a:first-child {
+  margin: 0;
 }
 
 .header a:hover {
   background-color: rgba(255, 228, 146, .2);
-  
 }
+
+.navcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.sitename {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .nav_anchor {
+    display: none;
+  }
+}
+
