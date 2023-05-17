@@ -1,10 +1,16 @@
 import mainImg from './asy.png';
 import cn from 'classnames';
 import styles from './Promo.module.css';
+import { FC } from 'react';
+import { PromoProps } from './Promo.props';
 
-export const Promo = (): JSX.Element => {
+
+export const Promo: FC<PromoProps> = ({ className, ...props}): JSX.Element => {
   return (
-    <div className='container'>
+    <div 
+      className={cn(className, 'container')}
+      {...props}
+    >
       <div className={styles.grid_container}>
         <h1 className={styles.title}>
           Добро пожаловать на персональный сайт программиста! 👋

@@ -26,9 +26,14 @@
 
 button {
   border: none;
+  margin: 40px 20px 0 0;
   margin-right: 20px;
   border-radius: 5px;
   padding: 5px 10px;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23px;
 }
 
 button:hover {
@@ -39,8 +44,16 @@ button:hover {
   background-color: var(--blue);
 }
 
+.button_blue:hover {
+  box-shadow: 0 0 8px var(--blue);
+}
+
 .button_yellow {
   background-color: var(--yellow);
+}
+
+.button_yellow:hover {
+  box-shadow: 0 0 8px var(--yellow);
 }
 
 @media screen and (max-width: 800px) {
