@@ -1,7 +1,6 @@
-import React from 'react';
 import styles from './App.module.css';
 
-import { ArrowDown, Header, Promo, TestComponent } from '../components.index'
+import { ArrowDown, Header, Promo } from '../components.index'
 import '../../../node_modules/font-awesome/css/font-awesome.min.css';
 
 function App() {
