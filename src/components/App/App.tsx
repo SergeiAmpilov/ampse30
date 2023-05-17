@@ -1,14 +1,15 @@
 import React from 'react';
 import styles from './App.module.css';
 
-import { Header, TestComponent } from '../components.index'
+import { ArrowDown, Header, Promo, TestComponent } from '../components.index'
 import '../../../node_modules/font-awesome/css/font-awesome.min.css';
 
 function App() {
   return (<>
     <div className={styles.head}>
       <Header />
-      <div>Promo</div>
+      <Promo />
+      <ArrowDown />
     </div>
     <div>Portfolio</div>
     <div>Contacts</div>
