@@ -11,6 +11,9 @@
 .header a {
   text-decoration: none;
   margin-left: 10px;
+
+  transition: .3s;
+
 }
 
 .header a:first-child {
