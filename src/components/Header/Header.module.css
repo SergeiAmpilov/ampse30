@@ -1,0 +1,15 @@
+.header,
+.header a,
+.header a:visited
+{
+  color: var(--blue);
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header a:hover {
+  background-color: rgba(255, 228, 146, .2);
+  
+}
