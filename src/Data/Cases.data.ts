@@ -1,5 +1,6 @@
 
 type Case = {
+  index: number,
   title: string,
   description: string,
   techList: string[],
@@ -12,6 +13,7 @@ type Case = {
 
 export const CASES_DATA: Case[]  = [
   {
+    index: 1,
     title: 'Интернет-магазин вина wineexpress.ru',
     description: 'Онлайн-винтрина с функцией заказа доставки в пункт выдачи',
     techList: ['PHP', 'Bitrix', 'JavaScript', 'jQuery'],
@@ -23,6 +25,7 @@ export const CASES_DATA: Case[]  = [
     ]
   },
   {
+    index: 2,
     title: 'Одностраничный сайт ampilovs.ru',
     description: 'Персональный сайт программиста',
     techList: ['HTML', 'CSS', 'JavaScript', 'React'],
