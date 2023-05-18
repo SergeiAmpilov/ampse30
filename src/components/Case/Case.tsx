@@ -7,6 +7,8 @@ export const Case: FC<CaseProps> = ({index, className, ...props}): JSX.Element =
       key={index}
     >
       {props.title}
+      {props.description}
+
     </div>
   );
 };
