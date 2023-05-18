@@ -1,5 +1,5 @@
 
-type Case = {
+export type Case = {
   index: number,
   title: string,
   description: string,
@@ -36,7 +36,4 @@ export const CASES_DATA: Case[]  = [
       },
     ]
   },
-
-
-
 ];

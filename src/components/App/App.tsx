@@ -1,6 +1,6 @@
 import styles from './App.module.css';
 
-import { ArrowDown, Footer, Header, Promo } from '../components.index'
+import { ArrowDown, Footer, Header, Portfolio, Promo } from '../components.index'
 import '../../../node_modules/font-awesome/css/font-awesome.min.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Promo />
       <ArrowDown />
     </div>
-    <div>Portfolio</div>
+    <Portfolio />
     <div>Contacts</div>
     <div>Technology</div>
     <div>Sertificates</div>
