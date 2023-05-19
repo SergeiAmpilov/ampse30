@@ -3,9 +3,9 @@ import { Case } from '../components.index';
 import styles from './Portfolio.module.css';
 import { FC } from 'react';
 
-export const Portfolio: FC<any> = ():JSX.Element => {
+export const Portfolio: FC<any> = ({ ...props }):JSX.Element => {
   return (
-    <section id='portfolio'>
+    <section {...props} id='portfolio'>
       <div className="container">
         <h2 className={styles.title}>Portfolio</h2>
         <div className={styles.caselist}>

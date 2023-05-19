@@ -12,6 +12,7 @@ export const Case: FC<CaseProps> = ({index, img, className, ...props}): JSX.Elem
     <div
       className={cn(className, styles.case)}
       key={index}
+      {...props}
     >
       <img src={`/images/${img}`} alt="" className={styles.img}/>
       <div className={styles.content}>
