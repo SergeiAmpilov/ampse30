@@ -59,16 +59,18 @@ export const Contacts: FC<ContactsProps>  = ({className, ...props}: ContactsProp
                 </a>
               </li>
               <li>
-                <img
-                  src="https://www.codewars.com/users/sergei.ampilov/badges/small"
-                  alt="codewars"
-                  className={styles.codewars}
-                   />
-                <img 
-                  src="https://www.codewars.com/users/sergei.ampilov/badges/micro"
-                  alt="codewars"
-                  className={styles.codewars_micro}
-                  />
+                <a href="https://www.codewars.com/users/sergei.ampilov" target='_blank'>
+                  <img
+                    src="https://www.codewars.com/users/sergei.ampilov/badges/small"
+                    alt="codewars"
+                    className={styles.codewars}
+                    />
+                  <img 
+                    src="https://www.codewars.com/users/sergei.ampilov/badges/micro"
+                    alt="codewars"
+                    className={styles.codewars_micro}
+                    />
+                </a>
               </li>
             </ul>
           </div>
