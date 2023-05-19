@@ -31,12 +31,60 @@ export const CASES_DATA: Case[]  = [
     title: 'Одностраничный сайт ampilovs.ru',
     img: 'avatar.png',
     description: 'Персональный сайт программиста с портфолио проектов и контактами',
-    techList: ['HTML', 'CSS', 'JavaScript', 'React'],
+    techList: ['HTML', 'CSS', 'Typescript', 'React'],
     linkList: [
       {
         name: 'GitHub',
-        link: 'https://github.com/SergeiAmpilov/ampilovs-ru'
+        link: 'https://github.com/SergeiAmpilov/ampse30'
       },
+    ]
+  },
+  {
+    index: 3,
+    img: 'weathercli.png',
+    title: 'CLI-утилита weather',
+    description: 'Утилита командной строки получает прогноз погоды и выводит в консоль',
+    techList: ['Node.js', 'CLI', 'API', 'Npm'],
+    linkList: [
+      {
+        name: 'GitHub',
+        link: 'https://github.com/SergeiAmpilov/weather-cli'
+      },
+      {
+        name: 'go npmjs.com',
+        link: 'https://www.npmjs.com/package/weather-cli-amp'
+      },
+    ]
+  },
+  {
+    index: 4,
+    img: 'rutravel.jpg',
+    title: 'Russian travel',
+    description: 'Сайт посвящен путешествиям по Россия',
+    techList: ['HTML', 'CSS', 'БЭМ', 'Grid', 'github'],
+    linkList: [
+      {
+        name: 'GitHub',
+        link: 'https://github.com/SergeiAmpilov/russian-travel'
+      },
+      {
+        name: 'Github Pages',
+        link: 'https://sergeiampilov.github.io/russian-travel/'
+      },
+    ]
+  },
+
+  {
+    index: 5,
+    img: 'how-to-learn.jpg',
+    title: 'How to learn',
+    description: 'Как научиться учиться. Учебный проект на тему методик обучения и эффективности',
+    techList: ['HTML', 'CSS', 'БЭМ', 'github'],
+    linkList: [
+      {
+        name: 'GitHub',
+        link: 'https://github.com/SergeiAmpilov/how-to-learn'
+      }
     ]
   },
 ];
