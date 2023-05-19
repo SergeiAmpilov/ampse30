@@ -30,7 +30,7 @@ export const CASES_DATA: Case[]  = [
     index: 2,
     title: 'Одностраничный сайт ampilovs.ru',
     img: 'avatar.png',
-    description: 'Персональный сайт программиста',
+    description: 'Персональный сайт программиста с портфолио проектов и контактами',
     techList: ['HTML', 'CSS', 'JavaScript', 'React'],
     linkList: [
       {

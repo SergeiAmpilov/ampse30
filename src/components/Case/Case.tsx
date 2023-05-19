@@ -15,10 +15,27 @@ export const Case: FC<CaseProps> = ({index, img, className, ...props}): JSX.Elem
     >
       <img src={`/images/${img}`} alt="" className={styles.img}/>
       <div className={styles.content}>
-        <h3 className={styles.subtitle}>{}</h3>
-
-        {props.title}
-        {props.description}
+        <h3 className={styles.subtitle}>{props.title}</h3>
+        <p className={styles.description}>
+          {props.description}
+        </p>
+        <div className={styles.row}>          
+          { 
+            props.techList.map( (tech, i) => 
+              (<span className={styles.techbage} key={i}>{tech}</span>)) 
+          }
+        </div>
+        <div className={styles.row}>
+          {
+            props.linkList.map( (link, i) => (
+              <a
+                className={styles.link} 
+                key={i}
+                href={link.link}
+                target='_blank'>{link.name}</a>
+            ))
+          }
+        </div>
       </div>
 
     </div>
