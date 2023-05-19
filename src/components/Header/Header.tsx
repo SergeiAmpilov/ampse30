@@ -21,14 +21,14 @@ export const Header: FC<HeaderProps> = ({className, ...props }: HeaderProps): JS
             <a href="#contacts">Контакты</a>
           </div>
           <div>
-            <a href="tel: +79268373346" target='_blank'>
-              <i className="fa fa-phone" aria-hidden="true"></i>
-            </a>
-            <a href="mailto:dev@ampilovs.ru" target='_blank'>
-              <i className="fa fa-envelope" aria-hidden="true"></i>
+            <a href=" https://wa.me/79268373346" target='_blank'>
+              <i className="fa fa-whatsapp" aria-hidden="true"></i>
             </a>
             <a href="https://t.me/sergei_ampilov" target='_blank'>
               <i className="fa fa-telegram" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:dev@ampilovs.ru" target='_blank'>
+              <i className="fa fa-envelope" aria-hidden="true"></i>
             </a>
           </div>
         </nav>

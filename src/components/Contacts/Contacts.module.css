@@ -6,3 +6,22 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.link {
+  color: var(--white);
+  text-decoration: none;
+  transition: .3s;
+}
+
+.link:visited {
+  color: var(--white);
+}
+
+.link:hover {
+  background-color: rgba(255, 228, 146, .2);;
+}
