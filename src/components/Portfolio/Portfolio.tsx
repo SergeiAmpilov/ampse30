@@ -9,7 +9,11 @@ export const Portfolio: FC<any> = ():JSX.Element => {
       <div className="container">
         <h2 className={styles.title}>Portfolio</h2>
         <div className={styles.caselist}>
-          { CASES_DATA.map( (element) => (<Case {...element} />) ) }
+          { CASES_DATA.map( (element) => (
+            <Case 
+              {...element}
+            />
+          ))}
         </div>
       </div>
     </section>
