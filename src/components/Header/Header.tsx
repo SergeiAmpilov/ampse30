@@ -6,11 +6,12 @@ import cn from 'classnames';
 export const Header: FC<HeaderProps> = ({className, ...props }: HeaderProps): JSX.Element => {
   return (
     <header 
+      id='top'
       className={cn(className, styles.header)}
       {...props} >
       <div className="container">
         <nav className={styles.navcontainer}>
-          <a href="#home">
+          <a href="/">
             <i className="fa fa-home" aria-hidden="true"></i>
             <span className={styles.sitename}>
               ampilov.s

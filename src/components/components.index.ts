@@ -7,3 +7,4 @@ export * from './Case/Case';
 export * from './Contacts/Contacts';
 export * from './Technology/Technology';
 export * from './Footer/Footer';
+export * from './ScrollTop/ScrollTop';
