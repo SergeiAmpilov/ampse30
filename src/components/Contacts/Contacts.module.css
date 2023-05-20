@@ -1,5 +1,5 @@
 .section {
-  padding-top: 20px;
+  padding: 20px 0;
   background-color: var(--dark-blue);
   background-image: url(./bgcontacts.png);
   background-repeat: no-repeat;
