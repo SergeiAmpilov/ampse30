@@ -16,10 +16,10 @@ export const Header: FC<HeaderProps> = ({className, ...props }: HeaderProps): JS
               ampilov.s
             </span>
           </a>      
-          <div className={styles.nav_anchor}>
+          {/* <div className={styles.nav_anchor}>
             <a href="#portfolio">Портфолио</a>
             <a href="#contacts">Контакты</a>
-          </div>
+          </div> */}
           <div>
             <a href=" https://wa.me/79268373346" target='_blank'>
               <i className="fa fa-whatsapp" aria-hidden="true"></i>

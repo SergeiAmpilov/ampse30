@@ -6,6 +6,14 @@ import { PromoProps } from './Promo.props';
 
 
 export const Promo: FC<PromoProps> = ({ className, ...props}): JSX.Element => {
+  const handleButtonClick = (selector: string) => {
+    const el = document.getElementById(selector);
+
+    if (!el) {
+      return;
+    }
+    el.scrollIntoView({block: "start", behavior: "smooth"});
+  }
   return (
     <div 
       className={cn(className, 'container')}
@@ -22,8 +30,12 @@ export const Promo: FC<PromoProps> = ({ className, ...props}): JSX.Element => {
           интернет-магазин или веб-сервис, 
           обращайтесь!
           <nav>
-            <button className={styles.button_blue}>Портфолио</button>
-            <button className={styles.button_yellow}>Контакты</button>
+            <button 
+              className={styles.button_blue}
+              onClick={() => (handleButtonClick('portfolio'))}>Портфолио</button>
+            <button 
+              className={styles.button_yellow}
+              onClick={() => (handleButtonClick('contacts'))}>Контакты</button>
           </nav>
         </p>
       </div>
