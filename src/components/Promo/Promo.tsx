@@ -24,7 +24,7 @@ export const Promo: FC<PromoProps> = ({ className, ...props}): JSX.Element => {
           Добро пожаловать на персональный сайт программиста! 👋
         </h1>
         <img className={styles.img} src={mainImg} alt="Программист Ампилов" />
-        <p className={styles.paragraph}>
+        <div className={styles.paragraph}>
           Меня зовут Сергей, я занимаюсь веб-разработкой. 
           Если Вам требуется создать современный и технологичный сайт, 
           интернет-магазин или веб-сервис, 
@@ -37,7 +37,7 @@ export const Promo: FC<PromoProps> = ({ className, ...props}): JSX.Element => {
               className={styles.button_yellow}
               onClick={() => (handleButtonClick('contacts'))}>Контакты</button>
           </nav>
-        </p>
+        </div>
       </div>
     </div>
   );
