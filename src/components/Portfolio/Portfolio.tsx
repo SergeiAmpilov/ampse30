@@ -3,9 +3,10 @@ import { Case } from '../components.index';
 import styles from './Portfolio.module.css';
 import { FC } from 'react';
 import cn from 'classnames';
+import { PortfolioProps } from './Portfolio.props';
 
 
-export const Portfolio: FC<any> = ({ className, ...props }):JSX.Element => {
+export const Portfolio: FC<any> = ({ className, ...props }: PortfolioProps):JSX.Element => {
   return (
     <section
       className={cn(className, styles.section)}
@@ -15,6 +16,7 @@ export const Portfolio: FC<any> = ({ className, ...props }):JSX.Element => {
         <div className={styles.caselist}>
           { CASES_DATA.map( (element) => (
             <Case 
+              key={element.index}
               {...element}
             />
           ))}

@@ -3,10 +3,9 @@ import { CaseProps } from './Case.props';
 import cn from 'classnames';
 import styles from './Case.module.css'
 
-// import mainImg from './asy.png';
 
 
-export const Case: FC<CaseProps> = ({index, img, className, ...props}): JSX.Element => {
+export const Case: FC<CaseProps> = ({index, img, className, ...props}: CaseProps): JSX.Element => {
   
   return (
     <div
@@ -22,13 +21,13 @@ export const Case: FC<CaseProps> = ({index, img, className, ...props}): JSX.Elem
         </p>
         <div className={styles.row}>          
           { 
-            props.techList.map( (tech, i) => 
+            props.techs.map( (tech, i) => 
               (<span className={styles.techbage} key={i}>{tech}</span>)) 
           }
         </div>
         <div className={styles.row}>
           {
-            props.linkList.map( (link, i) => (
+            props.links.map( (link, i) => (
               <a
                 className={styles.link} 
                 key={i}

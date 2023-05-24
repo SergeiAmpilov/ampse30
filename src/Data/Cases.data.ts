@@ -4,8 +4,8 @@ export type Case = {
   img: string,
   title: string,
   description: string,
-  techList: string[],
-  linkList: {
+  techs: string[],
+  links: {
     name: string,
     link: string
   }[]
@@ -18,8 +18,8 @@ export const CASES_DATA: Case[]  = [
     title: 'Одностраничный сайт ampilovs.ru',
     img: 'avatar.png',
     description: 'Персональный сайт программиста с портфолио проектов и контактами',
-    techList: ['HTML', 'CSS', 'Typescript', 'React'],
-    linkList: [
+    techs: ['HTML', 'CSS', 'Typescript', 'React'],
+    links: [
       {
         name: 'GitHub',
         link: 'https://github.com/SergeiAmpilov/ampse30'
@@ -31,8 +31,8 @@ export const CASES_DATA: Case[]  = [
     img: 'weathercli.png',
     title: 'CLI-утилита weather',
     description: 'Утилита командной строки получает прогноз погоды и выводит в консоль',
-    techList: ['Node.js', 'CLI', 'API', 'Npm'],
-    linkList: [
+    techs: ['Node.js', 'CLI', 'API', 'Npm'],
+    links: [
       {
         name: 'GitHub',
         link: 'https://github.com/SergeiAmpilov/weather-cli'
@@ -48,8 +48,8 @@ export const CASES_DATA: Case[]  = [
     img: 'rutravel.jpg',
     title: 'Russian travel',
     description: 'Сайт посвящен путешествиям по Россия',
-    techList: ['HTML', 'CSS', 'БЭМ', 'Grid', 'github'],
-    linkList: [
+    techs: ['HTML', 'CSS', 'БЭМ', 'Grid', 'github'],
+    links: [
       {
         name: 'GitHub',
         link: 'https://github.com/SergeiAmpilov/russian-travel'
@@ -66,8 +66,8 @@ export const CASES_DATA: Case[]  = [
     img: 'how-to-learn.jpg',
     title: 'How to learn',
     description: 'Как научиться учиться. Учебный проект на тему методик обучения и эффективности',
-    techList: ['HTML', 'CSS', 'БЭМ', 'github'],
-    linkList: [
+    techs: ['HTML', 'CSS', 'БЭМ', 'github'],
+    links: [
       {
         name: 'GitHub',
         link: 'https://github.com/SergeiAmpilov/how-to-learn'
