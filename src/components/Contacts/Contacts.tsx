@@ -23,16 +23,6 @@ export const Contacts: FC<ContactsProps>  = ({className, ...props}: ContactsProp
             <p>Буду рад пообщаться по поводу вашего проекта:</p>
             <ul className={styles.list}>
               <li>
-                <a href="https://t.me/sergei_ampilov" target='_blank' className={styles.link}>
-                  <i className="fa fa-telegram" aria-hidden="true"></i> &nbsp; Telegram
-                </a>
-              </li>
-              <li>
-                <a href=" https://wa.me/79268373346" target='_blank' className={styles.link}>
-                  <i className="fa fa-whatsapp" aria-hidden="true"></i> &nbsp; Whatsapp
-                </a>
-              </li>
-              <li>
               <a href="mailto:dev@ampilovs.ru" target='_blank' className={styles.link}>
                 <i className="fa fa-envelope" aria-hidden="true"></i> &nbsp; Email
               </a>
