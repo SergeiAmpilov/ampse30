@@ -1,4 +1,4 @@
-import mainImg from './asy.jpg';
+import mainImg from './asy.png';
 import cn from 'classnames';
 import styles from './Promo.module.css';
 import { FC } from 'react';
