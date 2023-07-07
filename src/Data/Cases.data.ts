@@ -16,7 +16,7 @@ export const CASES_DATA: Case[]  = [
   {
     index: 10,
     title: 'Социальная сеть Movie Explorer',
-    img: 'movie.png',
+    img: 'movie2.png',
     description: 'Социальная сеть для поиска фильмов из публичного каталога. После регистрации пользователи могут добалять фильмы в избранное! Также, есть статическая страница-портфолио.',
     techs: ['HTML', 'CSS', 'Javascript', 'React', 'Node.js', 'Express.js', 'MongoDB'],
     links: [
